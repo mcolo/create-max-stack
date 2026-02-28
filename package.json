@@ -1,0 +1,22 @@
+{
+  "name": "create-max-stack-monorepo",
+  "private": true,
+  "description": "Opinionated nextjs scaffolding monorepo",
+  "type": "module",
+  "workspaces": [
+    "cli",
+    "template"
+  ],
+  "scripts": {
+    "cli:dev": "npm run dev -w cli",
+    "cli:build": "npm run build -w cli",
+    "cli:start": "npm run start -w cli",
+    "template:dev": "npm run dev -w template",
+    "template:build": "npm run build -w template"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "author": "Max Miracolo",
+  "license": "MIT"
+}
