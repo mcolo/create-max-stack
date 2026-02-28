@@ -1,0 +1,10 @@
+**/.git
+**/.svn
+**/.hg
+**/node_modules
+ *.log
+ .env*
+ .next
+ coverage
+ .prettierignore
+ 
