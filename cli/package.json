@@ -8,7 +8,8 @@
     "create-max-stack": "./dist/index.js"
   },
   "files": [
-    "dist"
+    "dist",
+    "template"
   ],
   "scripts": {
     "build": "tsup",

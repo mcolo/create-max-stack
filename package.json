@@ -1,11 +1,10 @@
 {
-  "name": "create-max-stack-monorepo",
+  "name": "create-max-stack/root",
   "private": true,
-  "description": "Opinionated nextjs scaffolding monorepo",
+  "description": "Opinionated nextjs scaffolding",
   "type": "module",
   "workspaces": [
-    "cli",
-    "template"
+    "cli"
   ],
   "scripts": {
     "cli:dev": "npm run dev -w cli",

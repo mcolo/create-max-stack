@@ -69,7 +69,7 @@ async function main() {
   s.start('Scaffolding project...');
 
   const targetDir = path.join(process.cwd(), projectName);
-  const templateDir = path.resolve(__dirname, '../../template');
+  const templateDir = path.resolve(__dirname, '../template');
 
   // 1. Copy template
   fs.cpSync(templateDir, targetDir, { recursive: true });
