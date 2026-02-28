@@ -1,11 +1,11 @@
 {
   "name": "create-max-stack",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Opinionated nextjs scaffolding",
   "type": "module",
   "main": "./dist/index.js",
   "bin": {
-    "create-max-stack": "./dist/index.js"
+    "create-max-stack": "dist/index.js"
   },
   "files": [
     "dist",
