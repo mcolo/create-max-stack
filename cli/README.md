@@ -3,5 +3,7 @@
 Opinionated nextjs scaffolding, optionally include `clerk`, `drizzle` + `neon`, and `base-ui`.
 
 ```bash
-npx create-max-stack
+npx create-max-stack@latest
+# or
+npm create max-stack@latest
 ```
