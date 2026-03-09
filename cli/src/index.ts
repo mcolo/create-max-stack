@@ -53,7 +53,7 @@ async function main() {
       { value: 'db', label: 'Database (Neon + Drizzle)'},
       { value: 'base-ui', label: 'Base UI' },
     ],
-    initialValues: ['base-ui'],
+    initialValues: ['auth', 'db', 'base-ui'],
   })) as string[];
 
   if (isCancel(features)) {
