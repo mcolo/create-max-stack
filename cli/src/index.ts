@@ -127,8 +127,7 @@ async function main() {
   }
   if (envContent) {
     fs.writeFileSync(path.join(targetDir, '.env.example'), envContent);
-    fs.writeFileSync(path.join(targetDir, '.env.development.local'), envContent);
-    fs.writeFileSync(path.join(targetDir, '.env.production'), envContent);
+    fs.writeFileSync(path.join(targetDir, '.env'), envContent);
   }
 
   // 4.1 Add auth setup notes if Clerk is selected
