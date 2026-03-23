@@ -29,7 +29,7 @@
     "babel-plugin-react-compiler": "1.0.0",
     "drizzle-kit": "^0.31.9",
     "eslint": "^10",
-    "eslint-config-next": "16.1.6",
+    "eslint-config-next": "16.2.1",
     "eslint-config-prettier": "^10.1.8",
     "jsdom": "^28.1.0",
     "lint-staged": "^16.2.7",
