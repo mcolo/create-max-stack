@@ -18,5 +18,8 @@
   },
   "author": "Max Miracolo",
   "license": "MIT",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
 }
