@@ -16,8 +16,8 @@
     "drizzle-orm": "^0.45.1",
     "dotenv": "^17.3.1",
     "next": "^16.2.7",
-    "react": "19.2.6",
-    "react-dom": "19.2.6"
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
   },
   "devDependencies": {
     "@testing-library/dom": "^10.4.1",
@@ -29,7 +29,7 @@
     "babel-plugin-react-compiler": "1.0.0",
     "drizzle-kit": "^0.31.9",
     "eslint": "^10.5.0",
-    "eslint-config-next": "16.2.6",
+    "eslint-config-next": "16.2.9",
     "eslint-config-prettier": "^10.1.8",
     "jsdom": "^29.0.2",
     "lint-staged": "^17.0.7",
